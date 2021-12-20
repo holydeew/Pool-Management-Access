@@ -30,12 +30,10 @@ namespace DivertelPool
                 Form mf = new Form();
                 mf.Show();
                 this.Hide();
-
             }
             else
             {
-                MessageBox.Show("UserName ou Password Errado!");
-
+                MessageBox.Show("Username ou Password Errado!");
             }
 
             Con.Close();
